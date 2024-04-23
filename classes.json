@@ -1,6 +1,6 @@
 {
-"ind":{"Offset_Beams":0,"Angle_Beams":1, "90_Beams":2, "Connectors":3, "1x_Beams":4, "2x_Beams":5, "3x4_TeeBeam":6, "Standoffs":7, "Plates":8, "Dist_Sensor":9, "Robot_Brain":10, "Smart_Motor":11, "Touch_LED":12 },
-"classes":["Offset beams","Angle beams", "90 degree beams", "Connectors", "1 by beams", "2 by beams", "3 by 4 Tee beam", "Standoffs", "Plates", "Distance Sensor", "Robot Brain", "Smart Motor", "Touch LED"],
+"ind":{"Offset_Beams":0,"Angle_Beams":1, "90_Beams":2, "Connectors":3, "1x_Beams":4, "2x_Beams":5, "3x4_TeeBeam":6, "Standoffs":7, "Plates":8, "Dist_Sensor":9, "Robot_Brain":10, "Smart_Motor":11, "Touch_LED":12, "Battery":13},
+"classes":["Offset beams","Angle beams", "90 degree beams", "Connectors", "1 by beams", "2 by beams", "3 by 4 Tee beam", "Standoffs", "Plates", "Distance Sensor", "Robot Brain", "Smart Motor", "Touch LED", "Robot Battery"],
 "descriptions":["Offset beams let you connect parts at different heights, so you can build things that stand out and fit together just right in VEXIQ projects. They're like puzzle pieces that make your creations more creative and sturdy.",
   "Angle beams help you make strong corners or slanted parts in your VEXIQ projects, so your builds can be more interesting and hold together better. They're like the glue that keeps your creations solid and cool-looking.", 
   "With 90-degree beams, you can make perfect corners, just like the corners of a room, in your VEXIQ builds. They're like the building blocks that give your creations a strong foundation and keep everything in place.",
@@ -14,5 +14,6 @@
   "The robot brain is like the control center of your VEXIQ creation, where all the decisions are made. It's where your robot's programming lives, telling it what to do and how to do it. Think of it as the brain that powers your robot and makes it come to life.",
   " Smart motors are like the muscles of your VEXIQ robot, providing the power and movement needed to perform tasks. They're special because they can communicate with the robot brain, allowing for precise control and coordination. They're like the strong arms and legs that help your robot accomplish its missions.",
   "The touch LED is a cool tool that lets your robot sense when it's being touched and even light up to show different signals or messages. It's like a secret communicator between your robot and the outside world, adding an extra layer of interactivity and fun to your VEXIQ projects.",
+  "The battery is the main source of power for your robot, without it, the robot will not be able to move! Make sure you charge it so your robot runs smoothly"
 ]
 }
