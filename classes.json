@@ -1,0 +1,11 @@
+{
+"ind":{"4x4 offset r...":0,"3x3 30 Degre...":1,"3x3 60 Degre...":2,"2x3 right an...":3,"3x4 tee beam":5,"3x3 45 degre...":4,"3x5 right an...":6},
+"classes":["4 by 4 Offset Right Angle Beam","3 by 3 30 Degree Angle Beam","3 by 3 60 Degree Angle Beam","2 by 3 right angle beam","3 by 3 45 degree angle beam","3 by 4 tee beam","3 by 5 right angle beam"],
+"descriptions":["This beam can be used for big parts in the base of a robot that need different directions. It can be a used as a large claw, and for parts of your robot that need to be far away",
+"This is the closest to a straight line of all the angle beams. Use it when you need to make curved parts. It can also be used for claws",
+"This is the closest to a right angle beam, but not quite. It should be used when a 45 degree angle is not enough, but a right angle is too much. Use for claws and parts that need unique angles",
+"This is one of the smaller structural beams. It can be used anywhere where you need to connect two parts of your robot at a right angle. It is similar to the t beam, but it takes up less space",
+"This is the second smallest angle of all the angle beams. It can be used for slight angles that need to be bigger than the 30 degree beam, such as curved elements or claws",
+"This is one of the core structural elements for many robots. It can be used to connect many different building blocks of your robot securely",
+"This is one of the mid sized structural beams. It can be used anywhere where you need to connect two parts of your robot at a right angle. It is similar to the 2 by 3 beam, but it takes up more space and can make your robot more sturdy"]
+}

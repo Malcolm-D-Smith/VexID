@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap"
+  />
+
+  <style>
+    #ID {
+      font-family: "Noto Sans TC";
+      font-style: bold;
+      position: fixed;
+      padding: 10px;
+      /*margin-left: 100px;*/
+    }
+    #Read {
+      font-family: "Noto Sans TC";
+      padding: 10px;
+      font-style: bold;
+      margin-left: 130px;
+      margin-top: 10px;
+      position: fixed;
+    }
+    .header {
+      /*font-family: "Teko", sans-serif;*/
+      text-align: center;
+      margin: 10px;
+    }
+    .webcam {
+      margin: 20px;
+      border: 5px solid grey;
+      border-radius: 5px;
+      /*padding: 100px;*/
+    }
+    .list {
+      margin: 20px;
+      flex-grow: 1;
+      /*font-family: "Roboto", sans-serif;*/
+      width: 150px;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      background: white;
+    }
+    .description {
+      margin: 20px;
+      flex-grow: 1;
+      /*font-family: "Roboto", sans-serif;*/
+      width: 224px;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      background: white;
+    }
+
+    .flexbody {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    body {
+      background-image: url("background.jpeg");
+      background-attachment: fixed;
+    }
+  </style>
+
+  <title>VexId 图像分类器</title>
+  <a href="index_en.html">English</a>
+  <a href="index_es.html">Español</a>
+  <h1 class="header">VexID 人工智能</h1>
+  <button class="header" type="button" id="ID" onclick="capture()">
+    <h2>确认</h2>
+  </button>
+  <button type="button" id="Read" onclick="read()"><h2>读</h2></button>
+</head>
+<body>
+  <div class="flexbody">
+    <div class="webcam" id="webcam-container"></div>
+    <div class="description" id="description-container"></div>
+    <div class="list" id="label-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </div>
+</body>
