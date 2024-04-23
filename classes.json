@@ -1,11 +1,14 @@
 {
-"ind":{"4x4 offset r...":0,"3x3 30 Degre...":1,"3x3 60 Degre...":2,"2x3 right an...":3,"3x4 tee beam":5,"3x3 45 degre...":4,"3x5 right an...":6},
-"classes":["4 by 4 Offset Right Angle Beam","3 by 3 30 Degree Angle Beam","3 by 3 60 Degree Angle Beam","2 by 3 right angle beam","3 by 3 45 degree angle beam","3 by 4 tee beam","3 by 5 right angle beam"],
-"descriptions":["This beam can be used for big parts in the base of a robot that need different directions. It can be a used as a large claw, and for parts of your robot that need to be far away",
-"This is the closest to a straight line of all the angle beams. Use it when you need to make curved parts. It can also be used for claws",
-"This is the closest to a right angle beam, but not quite. It should be used when a 45 degree angle is not enough, but a right angle is too much. Use for claws and parts that need unique angles",
-"This is one of the smaller structural beams. It can be used anywhere where you need to connect two parts of your robot at a right angle. It is similar to the t beam, but it takes up less space",
-"This is the second smallest angle of all the angle beams. It can be used for slight angles that need to be bigger than the 30 degree beam, such as curved elements or claws",
-"This is one of the core structural elements for many robots. It can be used to connect many different building blocks of your robot securely",
-"This is one of the mid sized structural beams. It can be used anywhere where you need to connect two parts of your robot at a right angle. It is similar to the 2 by 3 beam, but it takes up more space and can make your robot more sturdy"]
+"ind":{"Offset_Beams":0,"Angle_Beams":1, "90_Beams":2, "Connectors":3, "1x_Beams":4, "2x_Beams":5, "3x4_TeeBeam":6, "Standoffs":7, "Plates":8 },
+"classes":["Offset beams","Angle beams", "90 degree beams", "Connectors", "1 by beams", "2 by beams", "3 by 4 Tee beam", "Standoffs", "Plates"],
+"descriptions":["Offset beams let you connect parts at different heights, so you can build things that stand out and fit together just right in VEXIQ projects. They're like puzzle pieces that make your creations more creative and sturdy.",
+  "Angle beams help you make strong corners or slanted parts in your VEXIQ projects, so your builds can be more interesting and hold together better. They're like the glue that keeps your creations solid and cool-looking.", 
+  "With 90-degree beams, you can make perfect corners, just like the corners of a room, in your VEXIQ builds. They're like the building blocks that give your creations a strong foundation and keep everything in place.",
+  "These connectors are like the secret sauce for your VEXIQ creations, helping you make strong corners and angles so your builds stay sturdy and look awesome. They're the key to unlocking your imagination and building something amazing.",
+  "1x beams are the basic building blocks for your VEXIQ creations, perfect for simple connections that make your builds come to life. They're like the building blocks you start with, laying the foundation for all your awesome ideas.",
+  "Stronger and wider than 1x beams, 2x beams are like the big brothers of your VEXIQ creations, giving them extra strength and stability. They're like the superheroes that swoop in to save the day when your builds need a little extra support.",
+  "Teebeams are like the Swiss Army knives of your VEXIQ toolbox, letting you connect pieces in different directions to build all sorts of cool stuff.",
+  "Standoffs are like mini pillars that lift and support parts in your VEXIQ builds, giving them extra space and stability. They're like the tiny superheroes that keep everything standing tall and strong.",
+  "Plates are like the sturdy platforms that hold your VEXIQ creations together, providing a solid base for building and connecting different parts. They're like the foundation of a house, giving your builds a sturdy structure to stand on and grow from."
+]
 }
