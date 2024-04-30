@@ -1,5 +1,5 @@
 {
-"ind":{"Offset_Beams":0,"Angle_Beams":1, "90_Beams":2, "Connectors":3, "1x_Beams":4, "2x_Beams":5, "3x4_TeeBeam":6, "Standoffs":7, "Plates":8, "Dist_Sensor":9, "Robot_Brain":10, "Smart_Motor":11, "Touch_LED":12, "Battery":13},
+"ind":{"Offset_Beam":0,"Angle_Beams":1, "90_Beam":2, "Connectors":3, "1x_Beams":4, "2x_Beams":5, "3x4_TeeBeam":6, "Standoffs":7, "Plates":8, "Dist_Sensor":9, "Robot_Brain":10, "Smart_Motor":11, "Touch_LED":12, "Battery":13},
 "classes":["Offset beams","Angle beams", "90 degree beams", "Connectors", "1 by beams", "2 by beams", "3 by 4 Tee beam", "Standoffs", "Plates", "Distance Sensor", "Robot Brain", "Smart Motor", "Touch LED", "Robot Battery"],
 "descriptions":["Offset beams let you connect parts at different heights, so you can build things that stand out and fit together just right in VEXIQ projects. They're like puzzle pieces that make your creations more creative and sturdy.",
   "Angle beams help you make strong corners or slanted parts in your VEXIQ projects, so your builds can be more interesting and hold together better. They're like the glue that keeps your creations solid and cool-looking.", 

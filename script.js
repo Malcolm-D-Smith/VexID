@@ -25,7 +25,7 @@ async function init() {
   // Note: the pose library adds "tmImage" object to your window (window.tmImage)
   model = await tmImage.load(modelURL, metadataURL);
   maxPredictions = model.getTotalClasses();
-
+  maxPredictions = 10;
   // Convenience function to setup a webcam
   const flip = true; // whether to flip the webcam
   webcam = new tmImage.Webcam(
@@ -67,7 +67,9 @@ async function capture() {
   }
   const wi = classes["ind"][winner[0].className];
   discContainer.childNodes[0].innerHTML =
-    '<img src="./thumbnails/' + wi + '.png"></img>';
+    '<img src="./thumbnails/' +
+    wi +
+    '.png" style="width:200px;height:200px;"></img>';
   discContainer.childNodes[1].innerHTML =
     "<h2>" + classes["classes"][wi] + "</h2>";
   discContainer.childNodes[2].innerHTML = classes["descriptions"][wi];
